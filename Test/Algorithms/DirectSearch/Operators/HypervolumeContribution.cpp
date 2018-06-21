@@ -107,7 +107,7 @@ void testContributionNoRef(Algorithm algorithm, std::vector<RealVector> const& s
 	}
 }
 
-//creates points on a front defined by points x in [0,1]^3
+//creates points on a front defined by points x in [0,1]^3 ...
 // 1 is a linear front, 2 a convex front, 1/2 a concave front
 //reference point is 1^d
 std::vector<RealVector> createRandomFront(std::size_t numPoints, std::size_t numObj, double p){
